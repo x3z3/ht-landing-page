@@ -1,7 +1,7 @@
 {
   "name": "ht-landing-page",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
   "dependencies": {
     "@fluentui/react": "^8.120.5",
     "@testing-library/jest-dom": "^5.17.0",
