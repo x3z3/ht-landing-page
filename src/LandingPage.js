@@ -16,7 +16,7 @@ const LandingPage = () => {
         <DefaultButton
           iconProps={{ iconName: 'Upload' }}
           text="Upload"
-          href={process.env.REACT_APP_UPLOAD_LINK || '#'}
+          href={process.env.REACT_APP_UPLOAD_LINK || 'https://hypertherm.sharepoint.com'}
           className="upload-button rounded-button"
         />
       </header>
@@ -31,19 +31,19 @@ const LandingPage = () => {
             iconProps={{ iconName: 'EngineeringGroup' }} // Example icon
             text="Engineering"
             className="domain-button rounded-button"
-            href={process.env.REACT_APP_ENGINEERING_LINK || '#'}
+            href={process.env.REACT_APP_ENGINEERING_LINK || 'ent-chat-webapp-eng.azurewebsites.net'}
           />
           <DefaultButton
             iconProps={{ iconName: 'People' }} // Example icon
             text="Shared Services"
             className="domain-button rounded-button"
-            href={process.env.REACT_APP_SHARED_SERVICES_LINK || '#'}
+            href={process.env.REACT_APP_SHARED_SERVICES_LINK || 'ent-chat-webapp-ss.azurewebsites.net'}
           />
           <DefaultButton
             iconProps={{ iconName: 'Shop' }} // Example icon
-            text="Procurement"
+            text="CRM"
             className="domain-button rounded-button"
-            href={process.env.REACT_APP_PROCUREMENT_LINK || '#'}
+            href={process.env.REACT_APP_PROCUREMENT_LINK || 'ent-chat-webapp-crm.azurewebsites.net'}
           />
         </div>
       </main>
