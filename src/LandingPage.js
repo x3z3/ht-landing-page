@@ -31,19 +31,19 @@ const LandingPage = () => {
             iconProps={{ iconName: 'EngineeringGroup' }} // Example icon
             text="Engineering"
             className="domain-button rounded-button"
-            href={process.env.REACT_APP_ENGINEERING_LINK || 'ent-chat-webapp-eng.azurewebsites.net'}
+            href={process.env.REACT_APP_ENGINEERING_LINK || 'https://ent-chat-webapp-eng.azurewebsites.net'}
           />
           <DefaultButton
             iconProps={{ iconName: 'People' }} // Example icon
             text="Shared Services"
             className="domain-button rounded-button"
-            href={process.env.REACT_APP_SHARED_SERVICES_LINK || 'ent-chat-webapp-ss.azurewebsites.net'}
+            href={process.env.REACT_APP_SHARED_SERVICES_LINK || 'https://ent-chat-webapp-ss.azurewebsites.net'}
           />
           <DefaultButton
             iconProps={{ iconName: 'Shop' }} // Example icon
             text="CRM"
             className="domain-button rounded-button"
-            href={process.env.REACT_APP_PROCUREMENT_LINK || 'ent-chat-webapp-crm.azurewebsites.net'}
+            href={process.env.REACT_APP_PROCUREMENT_LINK || 'https://ent-chat-webapp-crm.azurewebsites.net'}
           />
         </div>
       </main>
